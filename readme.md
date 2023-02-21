@@ -45,5 +45,4 @@ Mozilla Public Licence 2.0
 ## Acknowledgements
 
 * [ShaanCoding - for the Readme generator](https://github.com/ShaanCoding/)
-* []()
-* []()
+* [OpenAI](openai.com/)
