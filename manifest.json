@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Never Ending GPT",
+    "version": "1.2.1",
+    "description": "Auto presses the 'Show more' button in ChatGPT's sidebar to load all previous chats.",
+    "icons": {
+        "48": "icon.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/chat",
+                "https://chat.openai.com/chat/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "48": "icon.svg"
+        },
+        "default_popup": "popup.html",
+        "default_title": "About Extension"
+    }
+}
