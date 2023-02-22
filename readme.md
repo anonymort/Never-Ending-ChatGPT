@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-
+  <img src="https://i.ibb.co/s5m1qJs/icon.png">
   <h3 align="center">Never Ending ChatGPT</h3>
 
   <p align="center">
